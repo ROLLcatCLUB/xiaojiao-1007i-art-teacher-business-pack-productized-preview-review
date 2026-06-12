@@ -1,0 +1,156 @@
+{
+  "stage": "1007I_ART_TEACHER_BUSINESS_PACK_PRODUCTIZED_PREVIEW",
+  "final_status": "XIAOJIAO_ART_TEACHER_BUSINESS_PACK_PRODUCTIZED_PREVIEW_PASS",
+  "directives": {
+    "light_entry_today_directive": {
+      "teacher_review_required": false,
+      "formal_apply_performed": false,
+      "surface_mode": "light_entry",
+      "primary_object": "today_work_items",
+      "supporting_objects": [
+        "art_lesson_design.lesson_L004_color_feeling"
+      ],
+      "visible_zones": [
+        "today_summary",
+        "priority_item",
+        "agent_note",
+        "two_actions"
+      ],
+      "hidden_zones": [
+        "resource_library_home",
+        "grid_studio",
+        "right_ai_panel"
+      ],
+      "agent_notes": [
+        {
+          "attach_to": "priority_item",
+          "text": "四年级第2课草稿已经生成，第二环节时间可能偏长。要先看一下吗？"
+        }
+      ],
+      "available_actions": [
+        "现在处理",
+        "稍后"
+      ]
+    },
+    "lesson_focus_directive": {
+      "teacher_review_required": false,
+      "formal_apply_performed": false,
+      "surface_mode": "focus_surface",
+      "primary_object": "art_lesson_design.lesson_L004_color_feeling",
+      "supporting_objects": [
+        "art_handout.handout_L004_missing",
+        "art_rubric.rubric_L004_pending",
+        "art_resource_ref.drawer_stub"
+      ],
+      "visible_zones": [
+        "lesson_objectives",
+        "lesson_structure",
+        "attached_agent_note",
+        "linked_objects",
+        "lesson_actions"
+      ],
+      "hidden_zones": [
+        "resource_library_home",
+        "student_side_runtime",
+        "public_display_surface"
+      ],
+      "agent_notes": [
+        {
+          "attach_to": "lesson_structure.section_2",
+          "text": "这一段 25 分钟有点撑。要不要我帮你压到 18 分钟，把展示时间留出来？"
+        }
+      ],
+      "available_actions": [
+        "确认课时草稿",
+        "生成学习单候选",
+        "暂时忽略建议"
+      ]
+    },
+    "handout_patch_preview_directive": {
+      "surface_mode": "guided_review",
+      "primary_object": "handout_candidate_patch.patch_handout_L004_001",
+      "supporting_objects": [
+        "art_lesson_design.lesson_L004_color_feeling",
+        "teacher_profile_stub.grade_4"
+      ],
+      "visible_zones": [
+        "candidate_preview",
+        "source_context",
+        "review_actions",
+        "status_notice"
+      ],
+      "hidden_zones": [
+        "formal_export",
+        "database_apply",
+        "provider_trace"
+      ],
+      "agent_notes": [
+        {
+          "attach_to": "candidate_preview",
+          "text": "这是候选内容，还不是正式学习单。确认前不会写入正式材料。"
+        }
+      ],
+      "available_actions": [
+        "采用",
+        "修改",
+        "不采用",
+        "重新生成候选"
+      ],
+      "teacher_review_required": true,
+      "formal_apply_performed": false
+    },
+    "teacher_review_gate_directive": {
+      "surface_mode": "focus_surface",
+      "primary_object": "work_object_patch.patch_handout_L004_001",
+      "supporting_objects": [
+        "art_handout",
+        "art_lesson_design.lesson_L004_color_feeling"
+      ],
+      "visible_zones": [
+        "patch_identity",
+        "review_state",
+        "teacher_decision_actions"
+      ],
+      "hidden_zones": [
+        "auto_approve",
+        "formal_writeback",
+        "real_model_generation"
+      ],
+      "agent_notes": [
+        {
+          "attach_to": "review_state",
+          "text": "系统不能自动通过教师审核。小教只能生成候选，不能替教师做最终专业判断。"
+        }
+      ],
+      "available_actions": [
+        "确认采用",
+        "修改后采用",
+        "暂存",
+        "放弃",
+        "重新生成候选"
+      ],
+      "teacher_review_required": true,
+      "formal_apply_performed": false
+    }
+  },
+  "boundary_flags": {
+    "provider_called": false,
+    "model_called": false,
+    "api_key_configured": false,
+    "database_written": false,
+    "real_database_written": false,
+    "memory_written": false,
+    "real_memory_written": false,
+    "Feishu_written": false,
+    "formal_export_created": false,
+    "real_frontend_runtime_modified": false,
+    "frontend_runtime_modified": false,
+    "dependency_installed": false,
+    "teacher_control_runtime_entered": false,
+    "public_display_runtime_entered": false,
+    "student_side_runtime_entered": false,
+    "auto_teacher_approval_performed": false,
+    "formal_apply_performed": false,
+    "teacher_review_required": true
+  }
+}
