@@ -1,0 +1,41 @@
+{
+  "stage": "1007I_ART_TEACHER_BUSINESS_PACK_PRODUCTIZED_PREVIEW",
+  "final_status": "XIAOJIAO_ART_TEACHER_BUSINESS_PACK_PRODUCTIZED_PREVIEW_PASS",
+  "pass": true,
+  "marker": "ALL_1007I_ART_TEACHER_BUSINESS_PACK_PRODUCTIZED_PREVIEW_CHECKS_OK",
+  "preview_type": "static_teacher_readable_html",
+  "states": [
+    "light_entry",
+    "lesson_focus",
+    "handout_patch_preview",
+    "teacher_review_gate"
+  ],
+  "boundary_flags": {
+    "provider_called": false,
+    "model_called": false,
+    "api_key_configured": false,
+    "database_written": false,
+    "real_database_written": false,
+    "memory_written": false,
+    "real_memory_written": false,
+    "Feishu_written": false,
+    "formal_export_created": false,
+    "real_frontend_runtime_modified": false,
+    "frontend_runtime_modified": false,
+    "dependency_installed": false,
+    "teacher_control_runtime_entered": false,
+    "public_display_runtime_entered": false,
+    "student_side_runtime_entered": false,
+    "auto_teacher_approval_performed": false,
+    "formal_apply_performed": false,
+    "teacher_review_required": true
+  },
+  "validation": {
+    "py_compile": "PASS",
+    "validator_no_arg": "PASS",
+    "validator_root": "PASS",
+    "manifest_minus_zip": [],
+    "zip_minus_manifest": []
+  },
+  "next_stage": "1007I_REVIEW_PENDING_BEFORE_REAL_ART_TEACHER_BUSINESS_APPLY"
+}
