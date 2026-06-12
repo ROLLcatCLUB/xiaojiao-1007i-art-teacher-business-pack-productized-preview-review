@@ -1,0 +1,43 @@
+{
+  "stage": "1007I_ART_TEACHER_BUSINESS_PACK_PRODUCTIZED_PREVIEW",
+  "final_status": "XIAOJIAO_ART_TEACHER_BUSINESS_PACK_PRODUCTIZED_PREVIEW_PASS",
+  "stage_type": "static_productized_preview",
+  "inherits_from": [
+    "1007A-H_ART_TEACHER_DAILY_WORK_BUSINESS_PACK_ACCEPTED",
+    "1006A_H_MINIMUM_RUNTIME_FOUNDATION_BASELINE_PASS",
+    "1005A_PRODUCT_POSITIONING_AND_DIFFERENTIATION_CONTRACT_PASS"
+  ],
+  "goal": "turn the accepted art teacher daily work vertical slice into a teacher-readable static preview",
+  "covered_product_states": [
+    "state_1_light_entry",
+    "state_2_lesson_focus",
+    "state_3_handout_patch_preview",
+    "state_4_teacher_review_gate"
+  ],
+  "surface_modes": [
+    "light_entry",
+    "focus_surface",
+    "guided_review"
+  ],
+  "boundary_flags": {
+    "provider_called": false,
+    "model_called": false,
+    "api_key_configured": false,
+    "database_written": false,
+    "real_database_written": false,
+    "memory_written": false,
+    "real_memory_written": false,
+    "Feishu_written": false,
+    "formal_export_created": false,
+    "real_frontend_runtime_modified": false,
+    "frontend_runtime_modified": false,
+    "dependency_installed": false,
+    "teacher_control_runtime_entered": false,
+    "public_display_runtime_entered": false,
+    "student_side_runtime_entered": false,
+    "auto_teacher_approval_performed": false,
+    "formal_apply_performed": false,
+    "teacher_review_required": true
+  },
+  "next_stage": "1007I_REVIEW_PENDING_BEFORE_REAL_ART_TEACHER_BUSINESS_APPLY"
+}
