@@ -33,3 +33,12 @@ dependency_installed=false
 teacher_review_required=true
 formal_apply_performed=false
 ```
+
+## 1007I_R1 SHA Record Sync
+
+```text
+1007I_R1_SHA_RECORD_SYNC_FIX=APPLIED
+business_preview_content_changed=false
+zip_payload_changed=false
+raw_readme_and_manifest_sha_record_synced=true
+```
