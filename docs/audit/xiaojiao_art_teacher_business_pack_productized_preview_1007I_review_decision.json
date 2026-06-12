@@ -1,0 +1,37 @@
+{
+  "stage": "1007I_ART_TEACHER_BUSINESS_PACK_PRODUCTIZED_PREVIEW",
+  "decision": "ACCEPT_WITH_SHA_RECORD_CAVEAT",
+  "final_status": "XIAOJIAO_ART_TEACHER_BUSINESS_PACK_PRODUCTIZED_PREVIEW_PASS",
+  "caveat": "STATIC_PRODUCTIZED_PREVIEW_NOT_REAL_BUSINESS_RUNTIME",
+  "minor_caveat": "README_ZIP_SHA256_AND_MANIFEST_ZIP_SHA256_MISMATCH_NEEDS_SYNC",
+  "r1_fix": "1007I_R1_SHA_RECORD_SYNC_FIX",
+  "r1_fix_status": "APPLIED",
+  "actual_zip_sha256": "4681C82979772F7236C383656DA9B1442A2CD1E11C6682B45D8ABBA7EC2B2361",
+  "business_preview_content_changed": false,
+  "zip_payload_changed": false,
+  "raw_readme_and_manifest_sha_record_synced": true,
+  "accepted_on": "2026-06-13",
+  "next_stage": "1007J_ART_TEACHER_PRODUCT_EXPERIENCE_REVIEW_AND_LIGHT_RECORDING_PLANNING",
+  "accepted_evidence": [
+    "4 teacher-readable static states",
+    "render directive JSON with 4 directives",
+    "light_entry hides resource library / grid studio / right AI panel",
+    "lesson_focus attaches Xiaojiao note to section_2",
+    "handout patch preview requires teacher review",
+    "formal_apply_performed=false",
+    "provider/model/database/memory/Feishu/frontend/runtime all false"
+  ],
+  "boundary_flags": {
+    "provider_called": false,
+    "model_called": false,
+    "api_key_configured": false,
+    "database_written": false,
+    "memory_written": false,
+    "Feishu_written": false,
+    "formal_export_created": false,
+    "real_frontend_runtime_modified": false,
+    "dependency_installed": false,
+    "teacher_review_required": true,
+    "formal_apply_performed": false
+  }
+}
