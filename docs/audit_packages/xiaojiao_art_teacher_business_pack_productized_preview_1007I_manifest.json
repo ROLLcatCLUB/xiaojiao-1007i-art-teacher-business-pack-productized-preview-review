@@ -2,7 +2,7 @@
   "stage": "1007I_ART_TEACHER_BUSINESS_PACK_PRODUCTIZED_PREVIEW",
   "final_status": "XIAOJIAO_ART_TEACHER_BUSINESS_PACK_PRODUCTIZED_PREVIEW_PASS",
   "zip_path": "docs/audit_packages/xiaojiao_art_teacher_business_pack_productized_preview_1007I.zip",
-  "zip_sha256": "F7629DBDEB1362C746D40BC404AFB613F5968DD5F60C622CCB3672310C91CC99",
+  "zip_sha256": "4681C82979772F7236C383656DA9B1442A2CD1E11C6682B45D8ABBA7EC2B2361",
   "zip_entry_count": 11,
   "zip_entries": [
     "docs/foundation/xiaojiao_art_teacher_business_pack_productized_preview_1007I.md",
@@ -20,5 +20,7 @@
   "manifest_minus_zip": [],
   "zip_minus_manifest": [],
   "forbidden_files_present": [],
-  "marker": "ALL_1007I_ART_TEACHER_BUSINESS_PACK_PRODUCTIZED_PREVIEW_CHECKS_OK"
+  "marker": "ALL_1007I_ART_TEACHER_BUSINESS_PACK_PRODUCTIZED_PREVIEW_CHECKS_OK",
+  "sha_record_sync_note": "1007I_R1 synced raw manifest zip_sha256 to current ZIP SHA without changing ZIP payload or business preview content.",
+  "sha_record_sync_stage": "1007I_R1_SHA_RECORD_SYNC_FIX"
 }
